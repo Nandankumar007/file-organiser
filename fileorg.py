@@ -22,9 +22,9 @@ for file in files:
         shutil.move(path+'/'+file, path+'/'+extension+'/'+file)
         
 print("your files are sorted\n")   
-ans=input (print("do you want to delete any folder (y/n): ")) 
+ans=input("do you want to delete any folder (y/n): ")
 if ans=="y":    
-    ch=input (print("Type extension name:"))
+    ch=input("Type extension name:")
 
 
     directory_path = path+'\\'+ch
